@@ -5,14 +5,12 @@ import Prelude
 import Data.Foldable (foldl)
 import Data.Int as Int
 import Data.Maybe (Maybe(Nothing))
-import Data.Newtype (traverse)
 import Data.String (CodePoint, uncons)
 import Data.String.CodePoints (codePointFromChar)
 import Data.String.Yarn (lines)
 import Data.Traversable (sequence)
 import Effect (Effect)
 import Effect.Class.Console (logShow)
-import Effect.Console (log)
 import Node.Encoding (Encoding(UTF8))
 import Node.FS.Sync (readTextFile)
 
